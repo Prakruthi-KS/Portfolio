@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prakruthi Kaganti Shivakumar — Data Analyst</title>
+<meta name="description" content="Portfolio of Prakruthi Kaganti Shivakumar, data analyst and business analytics grad.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<nav id="mainNav">
+  <a href="#hero" class="logo" data-panel="0">PKS<span>.</span></a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  <ul id="navList">
+    <li><a href="#about" data-panel="1">About</a></li>
+    <li><a href="#capabilities" data-panel="2">What I Can Do</a></li>
+    <li><a href="#experience" data-panel="3">Experience</a></li>
+    <li><a href="#work" data-panel="4">Work</a></li>
+    <li><a href="#contact" class="nav-cta" data-panel="5">Contact</a></li>
+  </ul>
+</nav>
+
+<div id="pinViewport">
+  <div id="track">
+
+    <section class="panel" id="hero">
+      <div class="hero-spin" aria-hidden="true">
+        <svg viewBox="0 0 320 320" width="100%" height="100%">
+          <g class="hero-spin-ring">
+            <defs><path id="heroCirclePath" d="M160,160 m-140,0 a140,140 0 1,1 280,0 a140,140 0 1,1 -280,0"/></defs>
+            <text font-size="17" font-weight="700" letter-spacing="1.5" fill="#740839" font-family="'Space Grotesk',sans-serif">
+              <textPath href="#heroCirclePath">OPEN TO WORK &#8226; HOBBY COLLECTOR &#8226; COFFEE-POWERED &#8226; DATA + CREATIVITY &#8226; CURIOUS &#8226; </textPath>
+            </text>
+          </g>
+          <g class="hero-spin-center">
+            <circle cx="160" cy="160" r="72" fill="#d7e4c1" opacity="0.6"/>
+            <image href="hero-bulb.png" x="100" y="100" width="120" height="120"/>
+          </g>
+        </svg>
+      </div>
+      <div class="hero-inner">
+        <div class="badge"><span class="dot"></span> Open to opportunities</div>
+        <h1>Hi, I'm<br><span class="hl">Prakruthi</span></h1>
+        <div class="cta-row">
+          <a href="#work" data-panel="4" class="btn btn-primary panel-link">See my work</a>
+          <a href="Prakruthi-Resume.pdf" class="btn btn-ghost" download>Download resume ↓</a>
+        </div>
+        <div class="hero-links">
+          <a href="https://github.com/Prakruthi-KS" target="_blank" rel="noopener">GitHub</a>
+          <span>·</span>
+          <a href="https://www.linkedin.com/in/prakruthi-ks/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div class="scroll-cue">scroll →</div>
+    </section>
+
+    <section class="panel" id="about">
+      <div class="section-head">
+        <span class="label">About</span>
+        <h2>A little<br>about me</h2>
+      </div>
+      <div class="about-illustration" aria-hidden="true"><img src="about-illustration-v2.png" alt=""></div>
+      <div class="about-text">
+        <p>I just wrapped up my Master's in Business Analytics at the University of Maryland, on top of a Bachelor's in Computer Science and Engineering. I love working with numbers and businesses, turning data into decisions people can actually trust and act on. My experience ranges from <strong>nonprofits</strong>, <strong>startups</strong>, to <strong>Fortune 500</strong> companies, so I've picked up a feel for how organizations of every size really run, across industries I'm genuinely into: <strong>tech</strong>, <strong>healthcare</strong>, <strong>retail</strong>, <strong>logistics</strong>, and <strong>food</strong>.</p>
+        <p>Outside of spreadsheets, I'm big on networking. Most recently I attended the Grace Hopper Celebration in Chicago, where I got to meet people from 100+ companies and sit in on a ton of great workshops. The energy was amazing, and it's honestly one of my favorite things to talk about.</p>
+      </div>
+
+      <div class="skills-marquee">
+        <div class="skills-track">
+          <span>SQL</span><span>Python</span><span>R</span><span>VBA</span><span>Machine Learning</span><span>XGBoost</span><span>NLP</span><span>GenAI</span><span>Prompt Engineering</span><span>Forecasting</span><span>Snowflake</span><span>AWS</span><span>ETL</span><span>Data Modeling</span><span>Tableau</span><span>Power BI</span><span>Excel</span><span>A/B Testing</span><span>Stakeholder Management</span><span>JIRA</span><span>Git</span>
+          <span aria-hidden="true">SQL</span><span aria-hidden="true">Python</span><span aria-hidden="true">R</span><span aria-hidden="true">VBA</span><span aria-hidden="true">Machine Learning</span><span aria-hidden="true">XGBoost</span><span aria-hidden="true">NLP</span><span aria-hidden="true">GenAI</span><span aria-hidden="true">Prompt Engineering</span><span aria-hidden="true">Forecasting</span><span aria-hidden="true">Snowflake</span><span aria-hidden="true">AWS</span><span aria-hidden="true">ETL</span><span aria-hidden="true">Data Modeling</span><span aria-hidden="true">Tableau</span><span aria-hidden="true">Power BI</span><span aria-hidden="true">Excel</span><span aria-hidden="true">A/B Testing</span><span aria-hidden="true">Stakeholder Management</span><span aria-hidden="true">JIRA</span><span aria-hidden="true">Git</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="capabilities">
+      <div class="section-head">
+        <span class="label">What I can do for you</span>
+        <div class="cap-heading-row">
+          <h2>Here's what I<br>bring to the table</h2>
+          <div class="cap-badge">
+            <svg viewBox="0 0 120 120" width="100" height="100">
+              <defs><path id="capCirclePath" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"/></defs>
+              <text font-size="9" font-weight="700" letter-spacing="1.5" fill="#740839">
+                <textPath href="#capCirclePath">DATA + CREATIVITY • DATA + CREATIVITY •</textPath>
+              </text>
+              <circle cx="48" cy="55" r="8" fill="none" stroke="#740839" stroke-width="2.5"/>
+              <circle cx="48" cy="55" r="3" fill="#740839"/>
+              <circle cx="72" cy="55" r="8" fill="none" stroke="#740839" stroke-width="2.5"/>
+              <circle cx="72" cy="55" r="3" fill="#740839"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="cap-layout">
+
+        <div class="cap-col">
+          <div class="cap-scroller" id="capScroller">
+
+            <div class="cap-card cap-clone" aria-hidden="true">
+              <div class="cap-photo bg-maroon">
+                <svg class="cap-icon" viewBox="0 0 64 64" width="44" height="44" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.35">
+                  <circle cx="22" cy="22" r="8"/>
+                  <path d="M8 48c0-8.8 6.3-14 14-14s14 5.2 14 14"/>
+                  <circle cx="44" cy="24" r="7"/>
+                  <path d="M32 49c1-7.5 6.2-12 12-12s11.5 4.5 12 12"/>
+                </svg>
+                <div class="cap-text">
+                  <span class="cap-eyebrow">People</span>
+                  <h3>Business &amp; collaboration</h3>
+                  <p>I bridge the gap between technical work and business decisions.</p>
+                  <div class="cap-tools">Stakeholder Mgmt · A/B Testing · Jira · Git</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cap-card">
+              <div class="cap-photo bg-pink">
+                <svg class="cap-icon" viewBox="0 0 64 64" width="44" height="44" fill="#fff" opacity="0.35">
+                  <rect x="12" y="34" width="9" height="18" rx="3"/>
+                  <rect x="27" y="22" width="9" height="30" rx="3"/>
+                  <rect x="42" y="10" width="9" height="42" rx="3"/>
+                  <circle cx="47" cy="6" r="4"/>
+                </svg>
+                <div class="cap-text">
+                  <span class="cap-eyebrow">Analytics</span>
+                  <h3>Data analysis &amp; BI</h3>
+                  <p>I turn raw, messy data into dashboards people actually open and use.</p>
+                  <div class="cap-tools">SQL · Python · R · Tableau · Power BI · Excel</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cap-card">
+              <div class="cap-photo bg-teal-dark">
+                <svg class="cap-icon" viewBox="0 0 64 64" width="44" height="44" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" opacity="0.35">
+                  <circle cx="32" cy="27" r="13"/>
+                  <line x1="26" y1="42" x2="38" y2="42"/>
+                  <line x1="28" y1="48" x2="36" y2="48"/>
+                  <line x1="32" y1="8" x2="32" y2="3"/>
+                  <line x1="14" y1="15" x2="10" y2="11"/>
+                  <line x1="50" y1="15" x2="54" y2="11"/>
+                </svg>
+                <div class="cap-text">
+                  <span class="cap-eyebrow">AI + ML</span>
+                  <h3>Machine learning &amp; AI</h3>
+                  <p>I build models that predict what happens next — and can explain why.</p>
+                  <div class="cap-tools">XGBoost · NLP · GenAI · Prompt Engineering</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cap-card">
+              <div class="cap-photo bg-pink">
+                <svg class="cap-icon" viewBox="0 0 64 64" width="44" height="44" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.35">
+                  <rect x="16" y="10" width="32" height="46" rx="4"/>
+                  <rect x="24" y="6" width="16" height="8" rx="2"/>
+                  <path d="M22 27l4 4 8-8"/>
+                  <line x1="24" y1="40" x2="40" y2="40"/>
+                  <line x1="24" y1="48" x2="34" y2="48"/>
+                </svg>
+                <div class="cap-text">
+                  <span class="cap-eyebrow">Delivery</span>
+                  <h3>Project management</h3>
+                  <p>I plan and run projects end-to-end, from scoping through delivery, keeping timelines and teams on track.</p>
+                  <div class="cap-tools">Agile · Scrum · Waterfall · Asana · Jira</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cap-card">
+              <div class="cap-photo bg-teal-mid">
+                <svg class="cap-icon" viewBox="0 0 64 64" width="44" height="44" fill="#fff" opacity="0.35">
+                  <path d="M20 38c-6 0-10-4.3-10-9.6 0-4.8 3.6-8.7 8.4-9.4C19.6 13 25 9 32 9s12.4 4 13.6 10c4.8.7 8.4 4.6 8.4 9.4 0 5.3-4.5 9.6-10 9.6H20z"/>
+                  <circle cx="23" cy="48" r="3"/>
+                  <circle cx="32" cy="52" r="3"/>
+                  <circle cx="41" cy="48" r="3"/>
+                </svg>
+                <div class="cap-text">
+                  <span class="cap-eyebrow">Data ops</span>
+                  <h3>Data engineering &amp; cloud</h3>
+                  <p>I build the pipelines that make data trustworthy in the first place.</p>
+                  <div class="cap-tools">Snowflake · AWS · ETL · Data Modeling</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cap-card">
+              <div class="cap-photo bg-maroon">
+                <svg class="cap-icon" viewBox="0 0 64 64" width="44" height="44" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.35">
+                  <circle cx="22" cy="22" r="8"/>
+                  <path d="M8 48c0-8.8 6.3-14 14-14s14 5.2 14 14"/>
+                  <circle cx="44" cy="24" r="7"/>
+                  <path d="M32 49c1-7.5 6.2-12 12-12s11.5 4.5 12 12"/>
+                </svg>
+                <div class="cap-text">
+                  <span class="cap-eyebrow">People</span>
+                  <h3>Business &amp; collaboration</h3>
+                  <p>I bridge the gap between technical work and business decisions.</p>
+                  <div class="cap-tools">Stakeholder Mgmt · A/B Testing · Jira · Git</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="cap-card cap-clone" aria-hidden="true">
+              <div class="cap-photo bg-pink">
+                <svg class="cap-icon" viewBox="0 0 64 64" width="44" height="44" fill="#fff" opacity="0.35">
+                  <rect x="12" y="34" width="9" height="18" rx="3"/>
+                  <rect x="27" y="22" width="9" height="30" rx="3"/>
+                  <rect x="42" y="10" width="9" height="42" rx="3"/>
+                  <circle cx="47" cy="6" r="4"/>
+                </svg>
+                <div class="cap-text">
+                  <span class="cap-eyebrow">Analytics</span>
+                  <h3>Data analysis &amp; BI</h3>
+                  <p>I turn raw, messy data into dashboards people actually open and use.</p>
+                  <div class="cap-tools">SQL · Python · R · Tableau · Power BI · Excel</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="cap-dots" id="capDots">
+            <span class="active"></span><span></span><span></span><span></span><span></span>
+          </div>
+        </div>
+
+        <div class="cap-info">
+          <p class="cap-info-text">Don't see exactly what you're looking for? Don't worry, I'm a <strong>fast learner</strong>, I <strong>adapt</strong> easily, and I'm an amazing <strong>team player</strong>.</p>
+          <p class="cap-info-text"><span class="cap-highlight">Fun fact:</span> pharmacy sales, hospital data pipelines, retail supply chains, nonprofit food rescue, I've bounced across industries fast enough to collect a passport. Every stop meant learning something new on the spot, most recently teaching myself FastAPI and prompt engineering mid-project so I could go from idea to a deployed AI tool in a few weeks.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="panel" id="experience">
+      <div class="section-head">
+        <span class="label">Experience</span>
+        <h2>Where I've studied<br>&amp; worked</h2>
+      </div>
+
+      <div class="exp-wrap">
+
+      <div class="exp-edu">
+        <div class="edu-item">
+          <div class="edu-logo"><img src="logos/umd_seal.svg" alt="University of Maryland"></div>
+          <p class="edu-text"><span class="edu-degree">M.S. Business Analytics</span><br><span class="edu-meta">University of Maryland<br>Dec 2025</span></p>
+        </div>
+        <div class="edu-item">
+          <div class="edu-logo"><img src="logos/vit.svg" alt="VIT"></div>
+          <p class="edu-text">B.S. Computer Science &amp; Engineering<br><span class="edu-meta">VIT<br>May 2024</span></p>
+        </div>
+      </div>
+
+      <div class="exp-timeline">
+        <div class="exp-line"></div>
+
+        <div class="exp-row side-right">
+          <div class="exp-pill-side">
+            <div class="exp-pill c-pink">Jan 2026 — Present<br><span>Hyattsville, MD</span></div>
+          </div>
+          <div class="exp-node c-pink"><span></span></div>
+          <div class="exp-info-side">
+            <div class="exp-logo img-logo"><img src="logos/leftoverlove.png" alt="Leftover Love Inc"></div>
+            <div class="exp-info">
+              <h3>Data Analyst</h3>
+              <div class="exp-co">Leftover Love Inc</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-row side-right">
+          <div class="exp-pill-side">
+            <div class="exp-pill c-teal-dark">Sep — Dec 2025<br><span>College Park, MD</span></div>
+          </div>
+          <div class="exp-node c-teal-dark"><span></span></div>
+          <div class="exp-info-side">
+            <div class="exp-logo img-logo"><img src="logos/walmart.svg" alt="Walmart"></div>
+            <div class="exp-info">
+              <h3>Inbound Case Forecasting — Capstone</h3>
+              <div class="exp-co">Walmart</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-row side-right">
+          <div class="exp-pill-side">
+            <div class="exp-pill c-pink">Feb — May 2025</div>
+          </div>
+          <div class="exp-node c-pink"><span></span></div>
+          <div class="exp-info-side">
+            <div class="exp-logo badge-logo-img c-pink"><img src="logos/vizulingo.jpeg" alt="Vizulingo"></div>
+            <div class="exp-info">
+              <h3>Consulting Intern</h3>
+              <div class="exp-co">Vizulingo <span class="exp-co-note">(ICF Program: UMD)</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-row side-right">
+          <div class="exp-pill-side">
+            <div class="exp-pill c-teal-dark">Jan — Dec 2025</div>
+          </div>
+          <div class="exp-node c-teal-dark"><span></span></div>
+          <div class="exp-info-side">
+            <div class="exp-logo img-logo"><img src="logos/umd_seal.svg" alt="University of Maryland"></div>
+            <div class="exp-info">
+              <h3>VP of Student Affairs</h3>
+              <div class="exp-co">SMSA <span class="exp-co-note">(Leadership Role)</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-row side-right">
+          <div class="exp-pill-side">
+            <div class="exp-pill c-teal-mid">Jan — Jul 2024<br><span>Bangalore, India</span></div>
+          </div>
+          <div class="exp-node c-teal-mid"><span></span></div>
+          <div class="exp-info-side">
+            <div class="exp-logo img-logo"><img src="logos/lt_circle.png" alt="L&amp;T Technology Services"></div>
+            <div class="exp-info">
+              <h3>Analyst</h3>
+              <div class="exp-co">L&amp;T Technology Services</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="exp-row side-right">
+          <div class="exp-pill-side">
+            <div class="exp-pill c-maroon">Aug 2021 — Dec 2023<br><span>Bangalore, India</span></div>
+          </div>
+          <div class="exp-node c-maroon"><span></span></div>
+          <div class="exp-info-side">
+            <div class="exp-logo img-logo"><img src="logos/rajmedicals.png" alt="Raj Medicals"></div>
+            <div class="exp-info">
+              <h3>Business &amp; Data Analyst</h3>
+              <div class="exp-co">Raj Medicals</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <section class="panel" id="work">
+      <div class="section-head">
+        <span class="label">Selected work</span>
+        <h2>Projects I've<br>built</h2>
+        <p class="section-sub">hover a title to preview</p>
+      </div>
+
+      <div class="work-layout">
+
+        <div class="pr-scroll">
+          <div class="project-list" id="projectList">
+
+            <a class="project-row"
+               href="https://github.com/Prakruthi-KS/Geospatial-Analysis-of-Bar-Success-in-Philadelphia-Using-Big-Data"
+               target="_blank" rel="noopener"
+               data-logo="icon" data-icon="map" data-color="teal-dark"
+               data-desc="~1,400 bar locations and 200K+ Yelp reviews, BERTopic topic modeling + geospatial analysis to map high-opportunity zones.">
+              <span class="pr-dash">—</span>
+              <div class="pr-main"><h3>Optimal site-selection analysis, Philadelphia</h3></div>
+            </a>
+
+            <a class="project-row"
+               href="https://github.com/Prakruthi-KS/Airbnb-Perfect-Rating-Prediction"
+               target="_blank" rel="noopener"
+               data-logo="img" data-img="logos/airbnb.svg" data-color="airbnb"
+               data-desc="XGBoost model on listings + reviews, 85 engineered features, NLP (TF-IDF, VADER) to boost predictive performance.">
+              <span class="pr-dash">—</span>
+              <div class="pr-main"><h3>Airbnb perfect rating prediction</h3></div>
+            </a>
+
+            <a class="project-row"
+               href="https://github.com/Prakruthi-KS/LLM-Based-Loan-Description-Classification"
+               target="_blank" rel="noopener"
+               data-logo="icon" data-icon="chat" data-color="google"
+               data-desc="Prompt-engineered Gemini pipeline classifying loan descriptions at 91% accuracy, cutting manual review ~90%.">
+              <span class="pr-dash">—</span>
+              <div class="pr-main"><h3>LLM-based loan description classification</h3></div>
+            </a>
+
+            <a class="project-row"
+               href="https://github.com/Prakruthi-KS/Amtrak-Route-Performance-Analysis"
+               target="_blank" rel="noopener"
+               data-logo="img" data-img="logos/amtrak.svg" data-color="amtrak"
+               data-desc="Custom SQL database, BI queries, and Tableau dashboards on ridership, rewards, on-time performance, and efficiency.">
+              <span class="pr-dash">—</span>
+              <div class="pr-main"><h3>Amtrak route performance analysis</h3></div>
+            </a>
+
+            <a class="project-row"
+               href="https://github.com/Prakruthi-KS/Exploring-Global-Youtube-Trends"
+               target="_blank" rel="noopener"
+               data-logo="img" data-img="logos/youtube.svg" data-color="youtube"
+               data-desc="Interactive Tableau dashboards on subscriber growth, viewership, and monetization across ~1,000 channels worldwide.">
+              <span class="pr-dash">—</span>
+              <div class="pr-main"><h3>Exploring global YouTube trends</h3></div>
+            </a>
+
+            <a class="project-row"
+               href="https://github.com/Prakruthi-KS/Visualizing-Fannie-Mae-Mortgage-Data"
+               target="_blank" rel="noopener"
+               data-logo="img" data-img="logos/fanniemae.png" data-color="fanniemae"
+               data-desc="Exploratory analysis of mortgage loan performance, comparing default patterns pre-2008 crisis and pre-COVID.">
+              <span class="pr-dash">—</span>
+              <div class="pr-main"><h3>Visualizing Fannie Mae mortgage data</h3></div>
+            </a>
+
+            <a class="project-row"
+               href="https://github.com/Prakruthi-KS/Healthcare-Machine-Learning-Project"
+               target="_blank" rel="noopener"
+               data-logo="icon" data-icon="heart" data-color="teal-mid"
+               data-desc="Classification models (Random Forest, SVM, KNN) on cardiotocogram data for early detection of complications.">
+              <span class="pr-dash">—</span>
+              <div class="pr-main"><h3>Fetal health prediction</h3></div>
+            </a>
+
+            <div class="project-row project-row-more">
+              <span class="pr-dash">—</span>
+              <div class="pr-main"><h3>A few more on the way</h3></div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="pr-preview" id="prPreview">
+          <div class="pr-preview-bg" id="prPreviewBg">
+            <svg viewBox="0 0 64 64" width="120" height="120" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.35">
+              <rect x="8" y="12" width="48" height="32" rx="3"/>
+              <line x1="24" y1="52" x2="40" y2="52"/>
+              <line x1="32" y1="44" x2="32" y2="52"/>
+              <polyline points="15,35 24,25 30,31 40,19 49,25"/>
+            </svg>
+          </div>
+          <div class="pr-preview-content">
+            <h3 id="prPreviewTitle">Hover a project</h3>
+            <div class="pr-preview-bottom">
+              <p id="prPreviewDesc">Move your cursor over a title on the left to preview it here.</p>
+              <a id="prPreviewLink" href="https://github.com/Prakruthi-KS" target="_blank" rel="noopener">View on GitHub →</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="panel" id="contact">
+      <div class="contact-graphic" aria-hidden="true">
+        <img src="contact-illustration.png" alt="">
+      </div>
+      <a class="contact-chip" href="https://calendar.app.google/A5QNVaeDXHD1L6Jo9" target="_blank" rel="noopener">30 min chat?</a>
+      <div class="footer-inner">
+        <span class="label">Contact</span>
+        <h2>Let's talk</h2>
+        <p>People collect <strong>souvenirs</strong>, but I collect <strong>hobbies</strong>. Ask me about any of them, I've probably tried it at least once. My <strong>social battery</strong> almost never runs out, so I'd genuinely love to connect and learn from your experiences too.</p>
+        <div class="cta-row">
+          <a class="mail" href="mailto:ksprak10@terpmail.umd.edu">ksprak10@terpmail.umd.edu</a>
+          <a class="mail mail-alt" href="https://calendar.app.google/A5QNVaeDXHD1L6Jo9" target="_blank" rel="noopener">Book a coffee chat ☕</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/prakruthi-ks/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/Prakruthi-KS" target="_blank" rel="noopener">GitHub</a>
+          <a href="Prakruthi-Resume.pdf" download>Resume ↓</a>
+        </div>
+        <div class="footer-bottom">© 2026 Prakruthi Kaganti Shivakumar</div>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
