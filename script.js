@@ -60,6 +60,23 @@ window.addEventListener('resize', () => {
   resizeTimer = setTimeout(setupMasterScroll, 250);
 });
 
+// ---------- let horizontal scroll gestures drive the page too ----------
+// The pin+scrub rig is driven entirely by the page's normal vertical scroll
+// position, so a trackpad swipe or shift+wheel that only reports deltaX
+// (no deltaY) does nothing by default. Whenever a wheel event is clearly
+// more horizontal than vertical, forward that deltaX into a vertical
+// window scroll so it advances the pinned track the same way deltaY does.
+window.addEventListener('wheel', (e) => {
+  if (!isDesktop() || !masterTrigger) return;
+  // skip if the gesture is over an element that manages its own internal
+  // horizontal/vertical scrolling (none currently do, but stay defensive)
+  if (e.target.closest('#capScroller')) return;
+  if (Math.abs(e.deltaX) > Math.abs(e.deltaY)) {
+    e.preventDefault();
+    window.scrollBy({ top: e.deltaX });
+  }
+}, { passive: false });
+
 // ---------- nav / in-page links scroll to the right panel ----------
 function scrollToPanel(index){
   navList.classList.remove('open');
