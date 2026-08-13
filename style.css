@@ -88,7 +88,7 @@ img,svg{display:block;}
 .about-text p{font-size:17px; max-width:640px; color:var(--ink); line-height:1.5; margin-bottom:12px; font-weight:500;}
 .about-text strong{color:var(--pink); font-weight:800;}
 .placeholder-note{font-style:italic; color:var(--teal-dark); font-size:14px; border:1.5px dashed var(--teal-mid); border-radius:12px; padding:12px 16px; background:rgba(145,196,200,.15); font-family:'Space Grotesk',sans-serif;}
-.skills-marquee{position:relative; z-index:1; width:calc(100% + 96px); margin:14px -48px 0; overflow:hidden; -webkit-mask-image:linear-gradient(to right, transparent, #000 6%, #000 94%, transparent); mask-image:linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);}
+.skills-marquee{position:relative; z-index:1; width:calc(100% + 96px); margin:auto -48px 0; padding-top:24px; overflow:hidden; -webkit-mask-image:linear-gradient(to right, transparent, #000 6%, #000 94%, transparent); mask-image:linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);}
 .skills-track{display:flex; align-items:center; gap:56px; width:max-content; animation:skillsScroll 26s linear infinite;}
 .skills-track span{font-family:'Luckiest Guy',cursive; font-size:clamp(26px,4.4vw,46px); line-height:1; white-space:nowrap; color:var(--maroon); -webkit-text-stroke:0;}
 .skills-track span:nth-child(4n+2){color:var(--pink);}
