@@ -78,17 +78,19 @@ img,svg{display:block;}
 .scroll-cue{position:absolute; bottom:36px; right:48px; font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.1em; color:var(--teal-dark);}
 
 /* ABOUT */
-.about-illustration{position:absolute; top:48%; right:4%; width:min(40vw,560px); transform:translateY(-50%); z-index:0; pointer-events:none;}
+#about{padding-top:104px;}
+#about .section-head{margin-bottom:18px;}
+.about-illustration{position:absolute; top:46%; right:4%; width:min(40vw,560px); transform:translateY(-50%); z-index:0; pointer-events:none;}
 .about-illustration img{width:100%; display:block;}
 @media(max-width:1150px){.about-illustration{opacity:.55; width:28vw;}}
 @media(max-width:860px){.about-illustration{display:none;}}
 .about-text{position:relative; z-index:1;}
-.about-text p{font-size:19px; max-width:640px; color:var(--ink); line-height:1.6; margin-bottom:18px; font-weight:500;}
+.about-text p{font-size:17px; max-width:640px; color:var(--ink); line-height:1.5; margin-bottom:12px; font-weight:500;}
 .about-text strong{color:var(--pink); font-weight:800;}
 .placeholder-note{font-style:italic; color:var(--teal-dark); font-size:14px; border:1.5px dashed var(--teal-mid); border-radius:12px; padding:12px 16px; background:rgba(145,196,200,.15); font-family:'Space Grotesk',sans-serif;}
-.skills-marquee{position:relative; z-index:1; width:calc(100% + 96px); margin:8px -48px 0; overflow:hidden; -webkit-mask-image:linear-gradient(to right, transparent, #000 6%, #000 94%, transparent); mask-image:linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);}
+.skills-marquee{position:relative; z-index:1; width:calc(100% + 96px); margin:14px -48px 0; overflow:hidden; -webkit-mask-image:linear-gradient(to right, transparent, #000 6%, #000 94%, transparent); mask-image:linear-gradient(to right, transparent, #000 6%, #000 94%, transparent);}
 .skills-track{display:flex; align-items:center; gap:56px; width:max-content; animation:skillsScroll 26s linear infinite;}
-.skills-track span{font-family:'Luckiest Guy',cursive; font-size:clamp(30px,5.2vw,58px); line-height:1; white-space:nowrap; color:var(--maroon); -webkit-text-stroke:0;}
+.skills-track span{font-family:'Luckiest Guy',cursive; font-size:clamp(26px,4.4vw,46px); line-height:1; white-space:nowrap; color:var(--maroon); -webkit-text-stroke:0;}
 .skills-track span:nth-child(4n+2){color:var(--pink);}
 .skills-track span:nth-child(4n+3){color:var(--teal-dark);}
 .skills-track span:nth-child(4n+4){color:var(--teal-mid);}
